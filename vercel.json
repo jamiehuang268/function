@@ -13,6 +13,10 @@
     {
       "src": "/api/tts",
       "dest": "/api/tts.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/tts.py"
     }
   ]
 }
